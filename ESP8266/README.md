@@ -31,13 +31,10 @@ const char password = "tu-contraseña";
 cpp
 const char* serverUrl = "http://192.168.1.100:3000/mensaje";
 
-## 📚 Bibliotecas Necesarias
+## 📦 Dependencias
 
-- MD_Parola
-- MD_MAX72XX
-- ArduinoJson
-- ESP8266WiFi
-- ESP8266HTTPClient
-
-
-
+- `ESP8266WiFi.h`
+- `ESP8266HTTPClient.h`
+- `ArduinoJson.h`
+- `MD_MAX72XX.h`
+- `MD_Parola.h`
