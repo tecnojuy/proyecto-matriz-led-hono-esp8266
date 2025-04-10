@@ -46,9 +46,13 @@ npm start
 - `/ESP8266`: Código para el microcontrolador
 - `/docs`: Documentación, imágenes y videos
 
-## 📷 Demostración
+## 📷 Documentación Visual
 
-[Incluir aquí algunas imágenes del proyecto]
+### Montaje del Hardware
+![Montaje del Proyecto](./docs/images/simulacion-proteus.jpg)
+
+### Demostración en Funcionamiento
+![Demostración](./docs/images/envio-matriz-web.jpg)
 
 ## 🎥 Video Demostrativo
 

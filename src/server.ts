@@ -30,7 +30,13 @@ app.get("/mensaje", (c) => {
   return c.json({ mensaje: ultimoMensaje })
 })
 
-// Iniciamos el servidor en el puerto 3000
-serve(app, () => {
-  console.log("Servidor corriendo en http://172.20.10.3:3000")
+const PORT = Number(process.env.PORT) || 3000
+const HOST = process.env.HOST || 'TU-IP-LOCAL'
+
+// Iniciamos el servidor en el puerto especificado
+serve({
+  fetch: app.fetch,
+  port: PORT
+}, () => {
+  console.log(`Servidor corriendo en http://${HOST}:${PORT}`)
 }) 
