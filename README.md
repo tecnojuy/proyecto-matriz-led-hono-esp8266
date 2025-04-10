@@ -55,7 +55,11 @@ npm start
 ![Demostración](./docs/images/envio-matriz-web.jpg)
 
 ## 🎥 Video Demostrativo
-[![](https://markdown-videos.deta.dev/youtube/shorts/THOV-W7eBT0)](https://youtube.com/shorts/THOV-W7eBT0?feature=share)
+
+
+
+https://github.com/user-attachments/assets/a828d012-447c-4f0d-ac3c-68879068e1bf
+
 
 
 ## ✍️ Autor
