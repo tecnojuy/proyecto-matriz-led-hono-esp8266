@@ -22,7 +22,7 @@ Este proyecto implementa un sistema de visualización de mensajes en una matriz 
 1. Clonar el repositorio:
 
 bash
-git clone [URL-del-repositorio]
+git clone https://github.com/tecnojuy/proyecto-matriz-led-hono-esp8266
 
 2. Instalar dependencias:
 
@@ -55,8 +55,8 @@ npm start
 ![Demostración](./docs/images/envio-matriz-web.jpg)
 
 ## 🎥 Video Demostrativo
+[Ver demostración en YouTube Shorts](https://youtube.com/shorts/THOV-W7eBT0)
 
-[Video](./docs/videos/video-funcionamiento.MP4)
 
 ## ✍️ Autor
 
