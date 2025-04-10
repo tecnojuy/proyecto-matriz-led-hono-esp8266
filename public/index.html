@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Mensaje a ESP8266</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enviar Mensaje a la Matriz LED</h1>
+    <form id="mensajeForm">
+        <input type="text" id="mensaje" placeholder="Escribe tu mensaje" required>
+        <button type="submit">Enviar a la matriz</button>
+    </form>
+
+    <script>
+        document.getElementById('mensajeForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const mensaje = document.getElementById('mensaje').value;
+            
+            try {
+                const response = await fetch('/mensaje', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ mensaje })
+                });
+                const data = await response.json();
+                alert('Mensaje enviado con éxito');
+                document.getElementById('mensaje').value = '';
+            } catch (error) {
+                alert('Error al enviar el mensaje');
+            }
+        });
+    </script>
+</body>
+</html> 
