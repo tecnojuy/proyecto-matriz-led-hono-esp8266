@@ -57,8 +57,9 @@ npm start
 ## 🎥 Video Demostrativo
 
 
+https://github.com/user-attachments/assets/0b7be6be-4dc1-40c8-aa00-429578c8f201
 
-https://github.com/user-attachments/assets/a828d012-447c-4f0d-ac3c-68879068e1bf
+
 
 
 
