@@ -55,12 +55,21 @@ npm start
 ![Demostración](./docs/images/envio-matriz-web.jpg)
 
 ## 🎥 Video Demostrativo
-[Ver demostración en YouTube Shorts](https://youtube.com/shorts/THOV-W7eBT0)
+
+
+
+
+https://github.com/user-attachments/assets/eebd62f1-1649-4175-b708-e9e326963a1f
+
+
+
+
+
 
 
 ## ✍️ Autor
 
-Juan Bejarano
+Juan Javier Bejarano
 
 ## 📄 Licencia
 
