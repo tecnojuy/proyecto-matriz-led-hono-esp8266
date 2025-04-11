@@ -57,7 +57,8 @@ npm start
 ## 🎥 Video Demostrativo
 
 
-https://github.com/user-attachments/assets/0b7be6be-4dc1-40c8-aa00-429578c8f201
+
+https://github.com/user-attachments/assets/79b09453-47d3-473a-8a13-9181cb7b35e0
 
 
 
@@ -65,7 +66,7 @@ https://github.com/user-attachments/assets/0b7be6be-4dc1-40c8-aa00-429578c8f201
 
 ## ✍️ Autor
 
-Juan Bejarano
+Juan Javier Bejarano
 
 ## 📄 Licencia
 
