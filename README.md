@@ -49,11 +49,15 @@ npm start
 ## 📷 Documentación Visual
 
 ### Montaje del Hardware
-![Simulacion del Proyecto](./docs/images/simulacion-proteus.jpg)
-![Montaje del Proyecto](./docs/images/IMG_2044.jpg)
+<div align="center">
+  <img src="./docs/images/simulacion-proteus.jpg" width="400" alt="Simulación del Proyecto">
+  <img src="./docs/images/IMG_2044.jpg" width="400" alt="Montaje del Proyecto">
+</div>
 
 ### Demostración en Funcionamiento
-![Demostración](./docs/images/envio-matriz-web.jpg)
+<div align="center">
+  <img src="./docs/images/envio-matriz-web.jpg" width="600" alt="Demostración">
+</div>
 
 ## 🎥 Video Demostrativo
 
